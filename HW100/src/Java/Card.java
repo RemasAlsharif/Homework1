@@ -15,6 +15,6 @@ package Java;
 
     @Override
     public String toString() {
-        return id + (incorrectLastRound ? "(X)" : "(/)");
+        return id + (incorrectLastRound ? "(F)" : "(T)");
     }
 }

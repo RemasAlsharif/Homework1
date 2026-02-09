@@ -13,6 +13,6 @@ export class Card {
   }
 
   public toString(): string {
-    return this.id + (this.incorrectLastRound ? "(X)" : "(/)");
+    return this.id + (this.incorrectLastRound ? "(F)" : "(T)");
   }
 }
